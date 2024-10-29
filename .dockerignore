@@ -1,0 +1,8 @@
+*.md
+*.json
+*.yml
+logs
+data
+threat_intelligence
+emerging_threat
+connectors

@@ -1,0 +1,66 @@
+# Python 虛擬環境
+venv/
+env/
+ENV/
+
+# Python 編譯文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 日誌文件
+logs/
+*.log
+
+# 環境變數
+.env
+.env.*
+
+# IDE 配置
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 系統文件
+.DS_Store
+Thumbs.db
+
+# 項目特定目錄和文件
+emerging_threat/
+phishing_domain/
+threat_intelligence/
+google-chrome-stable_current_amd64.deb
+
+# 配置文件（如果包含敏感信息）
+/config/*.json
+!/config/config.example.json
+
+# 暫存文件
+*.tmp
+*.temp
+
+# 數據庫文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 打包文件
+*.tar
+*.gz
+*.zip
+
+# 證書文件
+*.pem
+*.key
+*.crt
+
+# Docker 相關
+.docker/
+docker-compose.override.yml
+
+# 編譯輸出
+dist/
+build/
+*.egg-info/
